@@ -13,4 +13,6 @@ int main() {
     std::cout << num2 << std::endl;
     std::cout << num3 << std::endl;
     std::cout << num4 << std::endl;
+
+    return 0;
 }
