@@ -12,4 +12,5 @@ int main() {
     } else {
         std::cout << my_number << " is odd." << std::endl;
     }
+    return 0;
 }

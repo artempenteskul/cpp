@@ -20,4 +20,5 @@ int main() {
     } else {
         std::cout << "UNKOWN COLOR!" << std::endl;
     }
+    return 0;
 }

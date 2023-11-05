@@ -20,4 +20,5 @@ int main() {
     } else {
         std::cout << "Year is not leap!" << std::endl;
     }
+    return 0;
 }

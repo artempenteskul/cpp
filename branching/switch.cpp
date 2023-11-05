@@ -19,4 +19,5 @@ int main() {
             std::cout << "Can't match any tool." << std::endl;
         }
     }
+    return 0;
 }
