@@ -20,7 +20,7 @@ int main() {
     std::cin.getline(name, max_len);
 
     while (!end) {
-        std::cout << "Oh dear " << name << " , I see ";
+        std::cout << "Oh dear " << name << ", I see ";
 
         size_t rand_num = static_cast<size_t>((std::rand() % 6));
 
