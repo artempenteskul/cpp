@@ -9,5 +9,9 @@ int main() {
 
     std::cout << "printing the value from the heap: " << *p_num << std::endl;
 
+    // return memory to the OS and reset the value
+    delete p_num;
+    p_num = nullptr;
+
     return 0;
 }
